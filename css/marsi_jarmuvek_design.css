@@ -1,0 +1,312 @@
+*{
+    font-family: Arial;
+    font-size: 20px;
+    color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    letter-spacing: normal;
+    white-space: normal;
+}
+
+body{
+    background-color: rgb(193,68,14);
+    background-image: url("../images/bg.jpg");
+    background-attachment: fixed;
+}
+
+ul{
+    list-style-type: none;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+}
+
+tr{
+    color:rgb(193,68,14);
+}
+
+hr{
+    width: 90%;
+    border:2px solid rgb(193,68,14);
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+h1{
+    font-size: 30px;
+    color:rgb(193,68,14);
+}
+
+h2{
+    font-size: 24px;
+    color:rgb(193,68,14);
+}
+
+p{
+    text-indent: 30px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+iframe{
+    display: block;
+    width:70%; 
+    height:350px; 
+    margin: auto;
+    border: none;
+}
+
+audio{
+  display: block;
+  margin: auto;
+}
+
+video{
+    margin: auto;
+}
+
+
+nav{
+    padding: 1%;
+    clear: both;
+    background-color:rgb(193,68,14);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+}
+.lista{
+    float: left;
+    text-align: center;
+    width: 14%;
+}
+
+.listamenu{
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
+    width: 100%;
+}
+footer{
+    padding: 1%;
+    clear: both;
+    background-color:rgb(193,68,14);
+    color:rgb(240,231,231);
+    column-count: 2;
+    column-rule-style: solid;
+    column-rule-color: rgb(252, 231, 199);
+}
+
+#container{
+    width: 90%;
+    margin: auto;
+    background-color: rgba(252, 231, 199,0.7);
+    margin-top: 5%;
+}
+
+#content{
+    padding: 1%;
+    width: 75%;
+    float: left;
+}
+
+#sidebar{
+    float: right;
+    padding: 1%;
+    width: 21%;    
+}
+
+aside{
+    float: right;
+    padding: 1%;
+    width: 21%;    
+}
+
+a:link {
+    text-decoration: none;
+    color:rgb(240,231,231);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+a:link.jelenlegi{
+    text-decoration: none;
+    color:red ;
+    font-weight: bold;
+    font-size: 20px;
+}
+  
+a:visited {
+    text-decoration: none;
+    color:rgb(240,231,231);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+a:visited.jelenlegi{
+    text-decoration: none;
+    color:red ;
+    font-weight: bold;
+    font-size: 20px;
+}
+a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color:rgb(231,125,17);
+    text-shadow: 2px 2px 4px #000000;
+}
+
+a:hover.jelenlegi{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color:rgb(231,125,17);
+    text-shadow: 2px 2px 4px #000000;
+}
+  
+a:active {
+    text-decoration: none;
+    color:rgb(240,231,231);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+a:active.jelenlegi{
+    text-decoration: none;
+    color:red ;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+td.info,tr.info{
+    padding: 1px;
+    text-align: left;
+    font-size: 25px; 
+}
+
+td.info:nth-child(1){
+    color:rgb(193,68,14);
+    font-weight: bold;
+}
+
+table.info{
+    width: 40%;
+    margin: auto;
+    float: left;
+    padding: 1%;
+    margin-left: 2%;
+}
+
+.infokep{
+    position: static;
+    width: 30%;
+    height: auto;
+    float: left;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    border: 3px solid rgb(193,68,14);  
+}
+
+.oldalkepek{
+    width: 95%;
+    margin: auto;
+    height: auto;
+    border: 3px solid rgb(193,68,14);
+    margin-top: 10%;
+}
+
+.dolt{
+    font-style: italic;
+}
+
+#marskutatas{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+#panorama{
+    margin-top: 2%;
+    border-radius: 30px;
+}
+
+@media print {
+    video, audio {display: none;}
+    h1, h3 { page-break-after: avoid; }
+}
+
+@page { margin: 1cm; }
+
+.loginpanel{
+    border: 4px solid rgba(255,255,255,0.3);
+    border-radius: 20px;
+    padding: 3em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    line-height: 10%;
+    background: url("../images/login/csillageso.gif");
+    z-index: -1;
+    margin-top: 60px;
+}
+.loginpanel fieldset{
+    border: 0px;
+}
+
+h3{
+    text-align: center;
+}
+
+.loginpanel a:link {
+    font-size: 40px;
+}
+
+.loginpanel td{
+    font-size: 30px;
+    color:rgb(240,231,231);
+}
+
+.loginpanel input, .loginpanel button, .loginpanel select{
+    color:rgb(240,231,231);
+    width: 320px;
+    height: 50px;
+    background: rgba(250,250,250,0.3);
+    outline: none;
+    border: 1px solid rgba(0,0,0,0.5);
+    font-weight: lighter;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+mark{
+    background-color: rgba(240,231,231,0.4);
+}
+
+#animacio{
+    width: 100px;
+    height: 100px;
+    background-image: url("../images/fooldal/ikon.png");
+    position: relative;
+    animation-name: animacio;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animacio {
+    0%   {left:0; top:0;}
+    50%  {left:100%; top:0;}
+    100%  {left:0; top:0;}
+}
+
+.tobboszlopos{
+    column-count: 3;
+}
