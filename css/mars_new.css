@@ -5,8 +5,9 @@ body{
     height: 1000px;
 }
 
-.content-bg {
-    background-color: antiquewhite;
+.content-bg{
+    background-color: rgba(240,231,231,0.7);
+    height: 100%;
 }
 
 .header-image{
@@ -14,12 +15,50 @@ body{
     height: auto;
 }
 
+.navbar{
+    background-color: rgba(69,24,4,0.9) !important;
+}
+
+.navbar a:hover{
+    color: rgb(231,125,17) !important;
+}
+
 .info-pic{
     width: 100%;
     height: auto;
 }
 
-.a{
-    background-color: aqua;
+h1, h2{
+    color: rgb(193,68,14) !important;
 }
 
+td:nth-child(1) { 
+    font-weight: bold;
+    text-align: right;
+    color: rgb(193,68,14) !important;
+}
+
+.table{
+    border: rgb(193,68,14);
+    width: 90%;
+    font-size: 20px;
+    margin: auto;
+}
+
+p{
+    text-align: justify;
+}
+
+.list-group-item{
+    text-align: center;
+    background-color: rgb(240,231,231);
+}
+
+.list-group-item a{
+    text-decoration: none;
+    color: black;
+}
+
+.list-group-item a:hover{
+    color: rgb(231,125,17);
+}
