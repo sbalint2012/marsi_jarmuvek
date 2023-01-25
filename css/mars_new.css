@@ -2,17 +2,11 @@ body{
     background-image: url(../images/bg.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 1000px;
 }
 
 .content-bg{
     background-color: rgba(240,231,231,0.7);
     height: 100%;
-}
-
-.header-image{
-    width: 100%;
-    height: auto;
 }
 
 .navbar{
@@ -21,11 +15,6 @@ body{
 
 .navbar a:hover{
     color: rgb(231,125,17) !important;
-}
-
-.info-pic{
-    width: 100%;
-    height: auto;
 }
 
 h1, h2{
