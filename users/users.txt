@@ -1,4 +1,0 @@
-a:6:{s:14:"felhasznalonev";s:6:"admin1";s:6:"jelszo";s:6:"jelszo";s:9:"teljesnev";s:6:"Admin1";s:5:"email";s:15:"admin1@rover.hu";s:14:"szuletesidatum";s:10:"2021-04-28";s:3:"nem";s:3:"man";}
-a:6:{s:14:"felhasznalonev";s:4:"asdf";s:6:"jelszo";s:4:"asdf";s:9:"teljesnev";s:4:"asdf";s:5:"email";s:13:"asdf@rover.hu";s:14:"szuletesidatum";s:10:"2021-05-05";s:3:"nem";s:5:"other";}
-a:6:{s:14:"felhasznalonev";s:1:"a";s:6:"jelszo";s:8:"Aaaaaaaa";s:9:"teljesnev";s:2:"aa";s:5:"email";s:5:"a@a.a";s:14:"szuletesidatum";s:10:"2021-04-15";s:3:"nem";s:5:"other";}
-a:6:{s:14:"felhasznalonev";s:2:"aa";s:6:"jelszo";s:9:"Aaaaaaaaa";s:9:"teljesnev";s:3:"a a";s:5:"email";s:5:"a@a.a";s:14:"szuletesidatum";s:10:"2021-04-15";s:3:"nem";s:5:"other";}
