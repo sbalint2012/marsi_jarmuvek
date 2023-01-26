@@ -1,0 +1,71 @@
+$bg-color: rgba(240,231,231,0.7);
+$navbar-bg: rgba(69,24,4,0.9);
+$highlight-color: rgb(193,68,14);
+$hover-color: rgb(231,125,17);
+
+body{
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.content-bg{
+    background-color: $bg-color;
+    height: 100%;
+}
+
+.navbar{
+    background-color: $navbar-bg !important;
+}
+
+.navbar a:hover{
+    color: $hover-color !important;
+}
+
+h1, h2{
+    color: $highlight-color !important;
+    scroll-margin-top: 60px;
+}
+
+td:nth-child(1) { 
+    font-weight: bold;
+    text-align: right;
+    color: $highlight-color !important;
+}
+
+.table{
+    border: $highlight-color;
+    width: 90%;
+    font-size: 20px;
+    margin: auto;
+}
+
+p{
+    text-align: justify;
+}
+
+.list-group-item{
+    text-align: center;
+    background-color: rgb(240,231,231);
+}
+
+.list-group-item a{
+    text-decoration: none;
+    color: black;
+}
+
+.list-group-item a:hover{
+    color: $hover-color;
+}
+
+.pics{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.footer{
+    background-color: $navbar-bg;
+    color: white;
+}

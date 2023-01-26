@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "mars.css",
+	"sources": [
+		"../scss/mars.scss"
+	],
+	"sourcesContent": [
+		"$bg-color: rgba(240,231,231,0.7);\n$navbar-bg: rgba(69,24,4,0.9);\n$highlight-color: rgb(193,68,14);\n$hover-color: rgb(231,125,17);\n\nbody{\n    background-image: url(../images/bg.jpg);\n    background-repeat: no-repeat;\n    background-attachment: fixed;\n}\n\n.content-bg{\n    background-color: $bg-color;\n    height: 100%;\n}\n\n.navbar{\n    background-color: $navbar-bg !important;\n}\n\n.navbar a:hover{\n    color: $hover-color !important;\n}\n\nh1, h2{\n    color: $highlight-color !important;\n    scroll-margin-top: 60px;\n}\n\ntd:nth-child(1) { \n    font-weight: bold;\n    text-align: right;\n    color: $highlight-color !important;\n}\n\n.table{\n    border: $highlight-color;\n    width: 90%;\n    font-size: 20px;\n    margin: auto;\n}\n\np{\n    text-align: justify;\n}\n\n.list-group-item{\n    text-align: center;\n    background-color: rgb(240,231,231);\n}\n\n.list-group-item a{\n    text-decoration: none;\n    color: black;\n}\n\n.list-group-item a:hover{\n    color: $hover-color;\n}\n\n.pics{\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n\n}\n\n.footer{\n    background-color: $navbar-bg;\n    color: white;\n}"
+	],
+	"names": [],
+	"mappings": ";AAKA,AAAA,IAAI,CAAA;EACA,gBAAgB,EAAE,qBAAqB;EACvC,iBAAiB,EAAE,SAAS;EAC5B,qBAAqB,EAAE,KAAK;CAC/B;;;AAED,AAAA,WAAW,CAAA;EACP,gBAAgB,EAZT,wBAAqB;EAa5B,MAAM,EAAE,IAAI;CACf;;;AAED,AAAA,OAAO,CAAA;EACH,gBAAgB,EAhBR,oBAAiB,CAgBI,UAAU;CAC1C;;;AAED,AAAA,OAAO,CAAC,CAAC,AAAA,MAAM,CAAA;EACX,KAAK,EAlBK,OAAe,CAkBL,UAAU;CACjC;;;AAED,AAAA,EAAE,EAAE,EAAE,CAAA;EACF,KAAK,EAvBS,OAAc,CAuBJ,UAAU;EAClC,iBAAiB,EAAE,IAAI;CAC1B;;;AAED,AAAA,EAAE,AAAA,UAAW,CAAA,CAAC,EAAE;EACZ,WAAW,EAAE,IAAI;EACjB,UAAU,EAAE,KAAK;EACjB,KAAK,EA9BS,OAAc,CA8BJ,UAAU;CACrC;;;AAED,AAAA,MAAM,CAAA;EACF,MAAM,EAlCQ,OAAc;EAmC5B,KAAK,EAAE,GAAG;EACV,SAAS,EAAE,IAAI;EACf,MAAM,EAAE,IAAI;CACf;;;AAED,AAAA,CAAC,CAAA;EACG,UAAU,EAAE,OAAO;CACtB;;;AAED,AAAA,gBAAgB,CAAA;EACZ,UAAU,EAAE,MAAM;EAClB,gBAAgB,EAAE,OAAgB;CACrC;;;AAED,AAAA,gBAAgB,CAAC,CAAC,CAAA;EACd,eAAe,EAAE,IAAI;EACrB,KAAK,EAAE,KAAK;CACf;;;AAED,AAAA,gBAAgB,CAAC,CAAC,AAAA,MAAM,CAAA;EACpB,KAAK,EAtDK,OAAe;CAuD5B;;;AAED,AAAA,KAAK,CAAA;EACD,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,KAAK;CAEpB;;;AAED,AAAA,OAAO,CAAA;EACH,gBAAgB,EAnER,oBAAiB;EAoEzB,KAAK,EAAE,KAAK;CACf"
+}
