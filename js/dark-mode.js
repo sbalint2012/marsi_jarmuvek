@@ -1,4 +1,5 @@
 function myFunction() {
+
     let banner = document.getElementById("banner-image");
     var element = document.body;
     element.classList.toggle("dark-mode");
@@ -10,3 +11,14 @@ function myFunction() {
     }
   
 }
+
+window.onload=function() {
+    if(localStorage.darkMode=="true") {
+        myFunction();
+        document.getElementById("myCheck").checked=true;
+    }
+};
+
+document.getElementById("myCheck").addEventListener("change", () => {
+    localStorage.darkMode=(localStorage.darkMode=="true")?"false":"true";
+});
