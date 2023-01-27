@@ -111,11 +111,11 @@ p{
 }
   
 input:checked + .slider {
-    background-color: $highlight-color;
+    background-color: #2493bf;
 }
   
 input:focus + .slider {
-    box-shadow: 0 0 1px $highlight-color;
+    box-shadow: 0 0 1px #2493bf;
 }
   
 input:checked + .slider:before {
@@ -133,8 +133,10 @@ input:checked + .slider:before {
     border-radius: 50%;
 }
 
-$bg-color-dark: rgba(36, 33, 33, 0.7);
-$navbar-bg-dark: rgba(23, 21, 21, 0.9);
+$bg-color-dark: rgba(2, 17, 37, 0.7);
+$navbar-bg-dark: rgba(4, 8, 16, 0.9);
+$highlight-color-dark: #2493bf;
+$hover-color-dark: #30C5FF;
   
 .dark-mode{
     background-image: url(../images/bg-dark.jpeg);
@@ -159,7 +161,11 @@ $navbar-bg-dark: rgba(23, 21, 21, 0.9);
     }
 
     .list-group-item a:hover{
-        color: $hover-color;
+        color: $hover-color-dark;
+    }
+
+    .navbar a:hover{
+        color: $hover-color-dark !important;
     }
 
     .navbar{
@@ -169,6 +175,13 @@ $navbar-bg-dark: rgba(23, 21, 21, 0.9);
     .footer{
         background-color: $navbar-bg-dark;
         color: white;
+    }
+
+    h1, h2, td:nth-child(1){
+        color: $highlight-color-dark !important;
+    }
+    .table{
+        border: $highlight-color-dark;
     }
 }
 

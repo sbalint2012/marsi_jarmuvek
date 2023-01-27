@@ -123,12 +123,12 @@ p {
 
 /* line 113, ../../../../../../../../../../../../../Applications/XAMPP/xamppfiles/htdocs/git/marsi_jarmuvek/scss/mars.scss */
 input:checked + .slider {
-  background-color: #c1440e;
+  background-color: #2493bf;
 }
 
 /* line 117, ../../../../../../../../../../../../../Applications/XAMPP/xamppfiles/htdocs/git/marsi_jarmuvek/scss/mars.scss */
 input:focus + .slider {
-  box-shadow: 0 0 1px #c1440e;
+  box-shadow: 0 0 1px #2493bf;
 }
 
 /* line 121, ../../../../../../../../../../../../../Applications/XAMPP/xamppfiles/htdocs/git/marsi_jarmuvek/scss/mars.scss */
@@ -149,67 +149,82 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
-/* line 139, ../../../../../../../../../../../../../Applications/XAMPP/xamppfiles/htdocs/git/marsi_jarmuvek/scss/mars.scss */
+/* line 141, ../../../../../../../../../../../../../Applications/XAMPP/xamppfiles/htdocs/git/marsi_jarmuvek/scss/mars.scss */
 .dark-mode {
   background-image: url(../images/bg-dark.jpeg);
   background-color: black;
   color: white;
 }
 
-/* line 144, ../../../../../../../../../../../../../Applications/XAMPP/xamppfiles/htdocs/git/marsi_jarmuvek/scss/mars.scss */
+/* line 146, ../../../../../../../../../../../../../Applications/XAMPP/xamppfiles/htdocs/git/marsi_jarmuvek/scss/mars.scss */
 .dark-mode .content-bg {
-  background-color: rgba(36, 33, 33, 0.7);
+  background-color: rgba(2, 17, 37, 0.7);
 }
 
-/* line 148, ../../../../../../../../../../../../../Applications/XAMPP/xamppfiles/htdocs/git/marsi_jarmuvek/scss/mars.scss */
+/* line 150, ../../../../../../../../../../../../../Applications/XAMPP/xamppfiles/htdocs/git/marsi_jarmuvek/scss/mars.scss */
 .dark-mode td:nth-child(2) {
   color: white !important;
 }
 
-/* line 152, ../../../../../../../../../../../../../Applications/XAMPP/xamppfiles/htdocs/git/marsi_jarmuvek/scss/mars.scss */
+/* line 154, ../../../../../../../../../../../../../Applications/XAMPP/xamppfiles/htdocs/git/marsi_jarmuvek/scss/mars.scss */
 .dark-mode .list-group-item {
-  background-color: rgba(23, 21, 21, 0.9);
+  background-color: rgba(4, 8, 16, 0.9);
 }
 
-/* line 156, ../../../../../../../../../../../../../Applications/XAMPP/xamppfiles/htdocs/git/marsi_jarmuvek/scss/mars.scss */
+/* line 158, ../../../../../../../../../../../../../Applications/XAMPP/xamppfiles/htdocs/git/marsi_jarmuvek/scss/mars.scss */
 .dark-mode .list-group-item a {
   text-decoration: none;
   color: white;
 }
 
-/* line 161, ../../../../../../../../../../../../../Applications/XAMPP/xamppfiles/htdocs/git/marsi_jarmuvek/scss/mars.scss */
+/* line 163, ../../../../../../../../../../../../../Applications/XAMPP/xamppfiles/htdocs/git/marsi_jarmuvek/scss/mars.scss */
 .dark-mode .list-group-item a:hover {
-  color: #e77d11;
+  color: #30C5FF;
 }
 
-/* line 165, ../../../../../../../../../../../../../Applications/XAMPP/xamppfiles/htdocs/git/marsi_jarmuvek/scss/mars.scss */
+/* line 167, ../../../../../../../../../../../../../Applications/XAMPP/xamppfiles/htdocs/git/marsi_jarmuvek/scss/mars.scss */
+.dark-mode .navbar a:hover {
+  color: #30C5FF !important;
+}
+
+/* line 171, ../../../../../../../../../../../../../Applications/XAMPP/xamppfiles/htdocs/git/marsi_jarmuvek/scss/mars.scss */
 .dark-mode .navbar {
-  background-color: rgba(23, 21, 21, 0.9) !important;
-}
-
-/* line 169, ../../../../../../../../../../../../../Applications/XAMPP/xamppfiles/htdocs/git/marsi_jarmuvek/scss/mars.scss */
-.dark-mode .footer {
-  background-color: rgba(23, 21, 21, 0.9);
-  color: white;
+  background-color: rgba(4, 8, 16, 0.9) !important;
 }
 
 /* line 175, ../../../../../../../../../../../../../Applications/XAMPP/xamppfiles/htdocs/git/marsi_jarmuvek/scss/mars.scss */
+.dark-mode .footer {
+  background-color: rgba(4, 8, 16, 0.9);
+  color: white;
+}
+
+/* line 180, ../../../../../../../../../../../../../Applications/XAMPP/xamppfiles/htdocs/git/marsi_jarmuvek/scss/mars.scss */
+.dark-mode h1, .dark-mode h2, .dark-mode td:nth-child(1) {
+  color: #2493bf !important;
+}
+
+/* line 183, ../../../../../../../../../../../../../Applications/XAMPP/xamppfiles/htdocs/git/marsi_jarmuvek/scss/mars.scss */
+.dark-mode .table {
+  border: #2493bf;
+}
+
+/* line 188, ../../../../../../../../../../../../../Applications/XAMPP/xamppfiles/htdocs/git/marsi_jarmuvek/scss/mars.scss */
 .icon-color {
   color: white;
 }
 
-/* line 179, ../../../../../../../../../../../../../Applications/XAMPP/xamppfiles/htdocs/git/marsi_jarmuvek/scss/mars.scss */
+/* line 192, ../../../../../../../../../../../../../Applications/XAMPP/xamppfiles/htdocs/git/marsi_jarmuvek/scss/mars.scss */
 .btn-close {
   background-color: white;
 }
 
-/* line 183, ../../../../../../../../../../../../../Applications/XAMPP/xamppfiles/htdocs/git/marsi_jarmuvek/scss/mars.scss */
+/* line 196, ../../../../../../../../../../../../../Applications/XAMPP/xamppfiles/htdocs/git/marsi_jarmuvek/scss/mars.scss */
 .modal-content, .modal-header {
   background-color: transparent;
   border: none;
 }
 
-/* line 188, ../../../../../../../../../../../../../Applications/XAMPP/xamppfiles/htdocs/git/marsi_jarmuvek/scss/mars.scss */
+/* line 201, ../../../../../../../../../../../../../Applications/XAMPP/xamppfiles/htdocs/git/marsi_jarmuvek/scss/mars.scss */
 .responsive-iframe {
   position: absolute;
   top: 0;
@@ -221,7 +236,7 @@ input:checked + .slider:before {
   margin: auto;
 }
 
-/* line 199, ../../../../../../../../../../../../../Applications/XAMPP/xamppfiles/htdocs/git/marsi_jarmuvek/scss/mars.scss */
+/* line 212, ../../../../../../../../../../../../../Applications/XAMPP/xamppfiles/htdocs/git/marsi_jarmuvek/scss/mars.scss */
 .vid-container {
   position: relative;
   overflow: hidden;
